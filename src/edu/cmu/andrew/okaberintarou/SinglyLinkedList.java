@@ -41,6 +41,7 @@ public class SinglyLinkedList {
             tail.addNodeAfter(c);
             tail = tail.getLink();
         }
+        ++countNodes;
     }
 
     public int countNodes() {
